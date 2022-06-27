@@ -32,6 +32,7 @@ namespace Calculator
         {
             InitializeComponent();
         }
+        // elke private void is een button
         private void Btn0_Click(object sender, RoutedEventArgs e)
         {
             if (input.Text.Length > 0)
@@ -42,9 +43,7 @@ namespace Calculator
                     Count++;
                 }
             }
-            
         }
-
 
         private void Btn1_Click(object sender, RoutedEventArgs e)
         {
@@ -125,7 +124,7 @@ namespace Calculator
                 Count++;
             }
         }
-
+        //dit zijn knopjes van plus ect.
         private void BtnPnt_Click(object sender, RoutedEventArgs e)
         {
             if (PntBtnActive == false)
